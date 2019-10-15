@@ -5,6 +5,7 @@ INJECTED from /Users/kimhanju/Desktop/Project/SellMe/SellMe/android/app/src/main
 INJECTED from /Users/kimhanju/Desktop/Project/SellMe/SellMe/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/kimhanju/Desktop/Project/SellMe/SellMe/android/app/src/main/AndroidManifest.xml:1:1-26:12
 MERGED from /Users/kimhanju/Desktop/Project/SellMe/SellMe/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-gesture-handler] /Users/kimhanju/Desktop/Project/SellMe/SellMe/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.61.2] /Users/kimhanju/.gradle/caches/transforms-2/files-2.1/3436cce2f7778fb57786c93d3fbd10b6/AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r245459] /Users/kimhanju/.gradle/caches/transforms-2/files-2.1/baad7b727d85ff832ffa1553f5050658/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/kimhanju/.gradle/caches/transforms-2/files-2.1/d494b8b709a6c2c3a86dd36c935dc83f/AndroidManifest.xml:17:1-22:12
@@ -132,6 +133,8 @@ uses-sdk
 INJECTED from /Users/kimhanju/Desktop/Project/SellMe/SellMe/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/kimhanju/Desktop/Project/SellMe/SellMe/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/kimhanju/Desktop/Project/SellMe/SellMe/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-gesture-handler] /Users/kimhanju/Desktop/Project/SellMe/SellMe/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/kimhanju/Desktop/Project/SellMe/SellMe/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.2] /Users/kimhanju/.gradle/caches/transforms-2/files-2.1/3436cce2f7778fb57786c93d3fbd10b6/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.2] /Users/kimhanju/.gradle/caches/transforms-2/files-2.1/3436cce2f7778fb57786c93d3fbd10b6/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /Users/kimhanju/.gradle/caches/transforms-2/files-2.1/baad7b727d85ff832ffa1553f5050658/AndroidManifest.xml:7:5-9:41

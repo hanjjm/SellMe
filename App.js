@@ -1,8 +1,8 @@
 import React from 'react';
-import {
-    Text
-} from 'react-native';
-import { createStackNavigator, createBottomTabNavigator, createAppContainer } from 'react-navigation-stack';
+import { View, Text, Button } from 'react-native';
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+import { createBottomTabNavigator} from 'react-navigation-tabs';
 
 import LoginScreen from './Screens/LoginScreen';
 import HomeScreen from './Screens/HomeScreen';
@@ -17,7 +17,7 @@ const HomeStack = createStackNavigator(
     // recommend custom header
     {
         defaultNavigationOptions: ({navigation}) => ({
-            title: 'Home',
+            title: 'Sell Me',
         }),
     }
 );
@@ -44,7 +44,7 @@ const TabNavigator = createBottomTabNavigator(
         defaultNavigationOptions: ({navigation}) => ({
             tabBarIcon: ({focused, horizontal, tintColor}) => {
                 const {routeName} = navigation.state;
-                let icon = "▲";
+                let icon = "";
 
                 if(routeName === 'Home'){
                     icon = "🌈";
@@ -67,7 +67,7 @@ const TabNavigator = createBottomTabNavigator(
 
 const AppStack = createStackNavigator(
     {
-        LoginScreen: LoginScreen,
+        //LoginScreen: LoginScreen,
         TabNavigator: {
             screen: TabNavigator,
             navigationOptions: ({navigation}) => ({

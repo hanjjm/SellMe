@@ -9,7 +9,7 @@ import {
 import { StackActions, NavigationActions } from 'react-navigation';
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
-export default class SettingScreen extends Component{
+export default class SettingScreen extends React.Component{
     _navigate(){
         this.props.navigation.navigate('SomethingScreen');
     }

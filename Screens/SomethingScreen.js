@@ -5,7 +5,7 @@ import {
     Button,
     StyleSheet
 } from 'react-native';
-export default class SomethingScreen extends Component{
+export default class SomethingScreen extends React.Component{
 
     render(){
         return (

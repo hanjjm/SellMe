@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
-export default class LoginScreen extends Component{
+export default class LoginScreen extends React.Component{
 
     static navigationOptions = {
         header: null,
